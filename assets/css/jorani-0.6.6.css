@@ -7,11 +7,7 @@
  */
 
 .anchor {
-    color: #3097d1;
-}
-
-.nolink {
-    color: black;
+    color: rgb(142, 204, 193);
 }
 
 /*Sticky footer*/
@@ -34,23 +30,23 @@ html, body {
 
 /*Background color of the navbar*/
 .navbar-inner {
-    background-color: #3097d1;
+   background-color: rgb(142, 204, 193);
     background-image: none;
     color: white;
 }
 .navbar-inverse .navbar-inner {
-    background-color: #3097d1;
+   background-color: rgb(142, 204, 193);
     background-image: none;
     color: white;
-    border-color: #3097d1;
+    border-color: rgb(142, 204, 193);
 }
 .navbar .nav > li > a {
-    background-color: #3097d1;
+     background-color: rgb(142, 204, 193);
     color: white;
 }
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-    background-color: #3097d1;
+    background-color: rgb(142, 204, 193);
     color: white;
 }
 .navbar .nav > .active > a,
@@ -62,11 +58,11 @@ html, body {
 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active>.dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle {
-    background-color: #3097d1;
+     background-color: rgb(142, 204, 193);
     color: #dddada;
 }
 .navbar .brand {
-    background-color: #3097d1;
+    background-color: rgb(142, 204, 193);
     color: white;
 }
 
@@ -80,15 +76,15 @@ html, body {
 }
 
 .btn-primary {
-    background: #3097d1;
-    border-color: #3097d1;
+    background: rgb(142, 204, 193);
+    border-color: rgb(142, 204, 193);
     color: white;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #3097d1;
+    background: rgb(142, 204, 193);
 }
 .btn-primary:active, .btn-primary.active, .btn-group.open .btn-primary.dropdown-toggle {
-    background: #3097d1;
+    background: rgb(142, 204, 193);
     box-shadow: none;
 }
 
@@ -119,24 +115,24 @@ html, body {
 }
 
 .btn-warning {
-    background: #f5811e;
-    border-color: #f5811e;
+    background: rgb(0, 79, 90);
+    border-color: rgb(0, 79, 90);
     color: white;
 }
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open > .dropdown-toggle.btn-warning {
-    background: #f5811e;
+    background: rgb(0, 79, 90);
 }
 .btn-warning:active, .btn-warning.active {
-    background: #f5811e;
+    background: rgb(0, 79, 90);
     box-shadow: none;
 }
 
 /* Badge */
 .badge-warning {
-    background: #f5811e;
+    background: rgb(0, 79, 90);
 }
 .badge-info {
-    background: #3097d1;
+    background: rgb(142, 204, 193);
 }
 
 /* Modal History of changes */
@@ -582,8 +578,8 @@ td.currentday-border {
 .datepicker table tr td span.active.active {
     border-radius: 1 !important;
     border-color: black !important;
-    background: #3097d1 !important;
-    border-color: #3097d1 !important;
+    background: rgb(142, 204, 193) !important;
+    border-color: rgb(142, 204, 193) !important;
     color: white !important;
 }
 
