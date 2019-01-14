@@ -95,11 +95,18 @@ class History_model extends CI_Model {
      * @param int $user_id Identifier of the connected user
      * @author Benjamin BALET <benjamin.balet@gmail.com>
      */
+
+
     public function setHistory($type, $table, $id, $user_id) {
+
+
+
+
         $sql = 'INSERT INTO ' . $table . '_history';
         $sql .= ' SELECT *, NULL,';
-        $sql .= ' ' . $type;
-        $sql .= ', ' . $user_id;
+        $sql .= '(select max(change_id)+1 from leaves_history)' ;
+ 	$sql .= ', ' . $type;
+	$sql .= ', ' . $user_id;
         $sql .= ', NOW() FROM ' . $table . ' WHERE id = ' . $id;
         $this->db->query($sql);
     }
