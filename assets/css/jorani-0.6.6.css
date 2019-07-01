@@ -7,7 +7,7 @@
  */
 
 .anchor {
-    color: rgb(142, 204, 193);
+    color: rgb(22, 166, 76);
 }
 
 /*Sticky footer*/
@@ -30,23 +30,23 @@ html, body {
 
 /*Background color of the navbar*/
 .navbar-inner {
-   background-color: rgb(142, 204, 193);
+    background-color: rgb(22, 166, 76);
     background-image: none;
     color: white;
 }
 .navbar-inverse .navbar-inner {
-   background-color: rgb(142, 204, 193);
+    background-color: rgb(22, 166, 76);
     background-image: none;
     color: white;
-    border-color: rgb(142, 204, 193);
+    border-color: rgb(22, 166, 76);
 }
 .navbar .nav > li > a {
-     background-color: rgb(142, 204, 193);
+    background-color: rgb(22, 166, 76);
     color: white;
 }
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-    background-color: rgb(142, 204, 193);
+    background-color: rgb(22, 166, 76);
     color: white;
 }
 .navbar .nav > .active > a,
@@ -58,11 +58,11 @@ html, body {
 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active>.dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle {
-     background-color: rgb(142, 204, 193);
+    background-color: rgb(22, 166, 76);
     color: #dddada;
 }
 .navbar .brand {
-    background-color: rgb(142, 204, 193);
+    background-color: rgb(22, 166, 76);
     color: white;
 }
 
@@ -76,15 +76,15 @@ html, body {
 }
 
 .btn-primary {
-    background: rgb(142, 204, 193);
-    border-color: rgb(142, 204, 193);
+    background: rgb(22, 166, 76);
+    border-color: rgb(22, 166, 76);
     color: white;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: rgb(142, 204, 193);
+    background: rgb(22, 166, 76);
 }
 .btn-primary:active, .btn-primary.active, .btn-group.open .btn-primary.dropdown-toggle {
-    background: rgb(142, 204, 193);
+    background: rgb(22, 166, 76);
     box-shadow: none;
 }
 
@@ -132,7 +132,7 @@ html, body {
     background: rgb(0, 79, 90);
 }
 .badge-info {
-    background: rgb(142, 204, 193);
+    background: rgb(22, 166, 76);
 }
 
 /* Modal History of changes */
@@ -144,20 +144,20 @@ html, body {
 
 /* Dropdown colors depending on the status */
 .dropdown-planned {
-  color: white;
-  background-color: #999 !important;
+    color: white;
+    background-color: #999 !important;
 }
 .dropdown-requested {
-  color: white;
-  background-color: #f89406 !important;
+    color: white;
+    background-color: #f89406 !important;
 }
 .dropdown-accepted {
-  color: white;
-  background-color: #468847 !important;
+    color: white;
+    background-color: #468847 !important;
 }
 .dropdown-rejected {
-  color: white;
-  background-color: #ff0000 !important;
+    color: white;
+    background-color: #ff0000 !important;
 }
 
 .input-centered {
@@ -578,13 +578,13 @@ td.currentday-border {
 .datepicker table tr td span.active.active {
     border-radius: 1 !important;
     border-color: black !important;
-    background: rgb(142, 204, 193) !important;
-    border-color: rgb(142, 204, 193) !important;
+    background: rgb(22, 166, 76) !important;
+    border-color: rgb(22, 166, 76) !important;
     color: white !important;
 }
 
 /*Better position of checkbox*/
 .filterStatus{
-  position: relative;
-  top: -2px;
+    position: relative;
+    top: -2px;
 }
