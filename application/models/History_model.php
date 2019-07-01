@@ -103,8 +103,8 @@ class History_model extends CI_Model {
 
 
         $sql = 'INSERT INTO ' . $table . '_history';
-        $sql .= ' SELECT *, NULL,';
-        $sql .= '(select max(change_id)+1 from leaves_history)' ;
+        $sql .= ' SELECT *, NULL';
+        $sql .= ', (select max(change_id)+1 from leaves_history)' ;
  	$sql .= ', ' . $type;
 	$sql .= ', ' . $user_id;
         $sql .= ', NOW() FROM ' . $table . ' WHERE id = ' . $id;
